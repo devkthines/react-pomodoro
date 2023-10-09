@@ -209,14 +209,14 @@ margin: 10px 0;
     width: 100px;
 }
 .ant-modal-header{
-    background-color: whitesmoke!important;
+    background-color: whitesmoke;
 
 }
 .ant-modal-content{
     /* width: 25vw; */
     text-align: center;
     /* margin: auto; */
-    background-color: whitesmoke!important;
+    background-color: #575366!important;
     border: 2px solid #003049!important;
     border-radius: 5px!important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px!important;
