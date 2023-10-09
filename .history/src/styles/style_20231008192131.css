@@ -224,9 +224,6 @@ margin: 10px 0;
 .dark .ant-modal-content{
     background-color: #D1E3DD!important;
 }
-.light .ant-modal-content{
-    background-color: #003049!important;
-}
 .ant-modal-title{
     color: #003049!important;
     font-size: 24px!important;
