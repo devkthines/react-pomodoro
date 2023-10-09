@@ -1,0 +1,125 @@
+﻿*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+
+}
+.bold{
+    color: blue;
+}
+.no-bold{
+    color: greenyellow;
+}
+#watchBand{
+width:25vw;
+height: 100vh;
+margin: auto;
+border-left: 5px solid black;
+border-right: 5px solid black;
+}
+#watch{
+    height: 33vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+.speakers-normal{
+    transform: rotate(90deg);
+    width: 50px;
+    height: 50px;
+    color: blue;
+}
+.speakers-crazy{
+    transform: rotate(90deg);
+    width: 50px;
+    height: 50px;
+    color: green;
+}
+#clockFace{
+
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quotes{
+    padding-top: 50px;
+    height: 100px;
+    /* border: 2px solid black; */
+}
+
+
+.sliders{
+    text-align: center;
+}
+#buttons{
+  display: flex;
+  justify-content: space-evenly;
+    height: 150px;
+}
+#title{
+    height: 100px;
+    text-align: center;
+}
+
+#controls{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.timeslide{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+.switcheroo{
+    width: 100px;
+}
+.light{
+    background-color: #FDF0D5;
+}
+.light #clockFace{
+    background-color: ;
+}
+.dark{
+    background-color: green;
+}
+#faqs{
+    width: 25vw;
+}
+#modalImg{
+    width: 25vw;
+}
+#quotes{
+    text-align: center;
+}
+#buttonControls{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{
+    text-align: center;
+}
+
+
+.quotes {
+    animation: fadeIn 6s infinite ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }

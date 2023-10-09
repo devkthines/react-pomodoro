@@ -1,0 +1,15 @@
+﻿#watchBand{
+width:25vw;
+height: 100vh;
+margin: auto;
+}
+#clockFace{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
